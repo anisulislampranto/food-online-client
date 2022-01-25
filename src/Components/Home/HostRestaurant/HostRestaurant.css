@@ -1,0 +1,19 @@
+.background-text{
+    font-size: 150px;
+    opacity: 0.1;
+}
+.headline-host-restaurants{
+    margin-top: -100px;
+    text-align: right;
+}
+.host-restaurant-background-image{
+    background-image: url(../../Images/pexels-rene-asmussen-2544829.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.host-info-card {
+    background-color: white;
+    padding: 20px;
+}

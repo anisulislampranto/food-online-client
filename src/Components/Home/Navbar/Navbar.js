@@ -3,15 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div>
-            <nav class="navbar navbar-light bg-light">
+        <div className='navbar'>
             <div class="container-fluid">
-                <a class="navbar-brand">FoodOnline</a>
-                <Link to='/login'>
-                    Log In
-                </Link>
+                <h1 style={{fontSize:'30px'}} class="navbar-brand text-bold text-white">FoodOnline</h1>
+                <Link className='text-white' to='/login'> Log In </Link>
             </div>
-            </nav>
+            
         </div>
     );
 };

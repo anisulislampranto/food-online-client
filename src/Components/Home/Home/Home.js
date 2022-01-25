@@ -1,14 +1,12 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
-import Restaurants from '../Restaurants/Restaurants';
-import SearchBar from '../SearchBar/SearchBar';
+import Header from '../Header/Header';
+import HostRestaurant from '../HostRestaurant/HostRestaurant';
 
 const Home = () => {
     return (
         <div>
-            <Navbar/>
-            <SearchBar/>
-            <Restaurants/>
+            <Header/>
+            <HostRestaurant/>
         </div>
     );
 };
