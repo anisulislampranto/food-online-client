@@ -1,0 +1,14 @@
+.restaurant-card{
+    box-shadow: 1px 2px 2px 2px gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform .5s ease;
+}
+.restaurant-card:hover{
+    transform: scale(1.1) ;
+    background: ghostwhite;
+}
+.restaurant-card img{
+    box-shadow: gainsboro 4px 4px 4px;
+    border-radius: 10px;
+}
