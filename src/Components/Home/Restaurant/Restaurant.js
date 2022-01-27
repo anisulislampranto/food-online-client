@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 import './Restaurant.css';
 
 const Restaurant = ({restaurant}) => {
-    const {name, image, type} = restaurant;
+    const {name, picture, type, _id} = restaurant;
+    // console.log(id);
 
     return (
-        <Link to='/res' className='col-md-4 restaurant-card'>
-            <img style={{width:'100%'}} src={image} alt="" srcset="" />
+        <Link to={`/restaurant/${_id}`} className='col-md-4 restaurant-card'>
+            <img style={{width:'100%'}} src={picture} alt="" srcset="" />
             <h1>{name}</h1>
-            <p>{type}</p>            
+            <p>$${type}</p>            
         </Link>
     );
 };

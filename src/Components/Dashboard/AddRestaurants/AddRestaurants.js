@@ -2,6 +2,7 @@ import React from 'react';
 
 // const restaurants = [
 //     {
+//         id:'1',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -41,6 +42,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'2',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -79,7 +81,8 @@ import React from 'react';
 //         ]
 
 //     },
-//     {
+//     {   
+//         id:'3',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -119,6 +122,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'4',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -158,6 +162,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'5',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -197,6 +202,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'6',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -236,6 +242,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'7',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -275,6 +282,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'8',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -314,6 +322,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'9',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -353,6 +362,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'10',
 //         name: 'Sultans Dine',
 //         Location: 'uttara', 
 //         type:'cafe',
@@ -392,6 +402,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'11',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -431,6 +442,7 @@ import React from 'react';
 
 //     },
 //     {
+//         id:'12',
 //         name: 'Sultans Dine',
 //         Location: 'uttara',
 //         type:'cafe',
@@ -473,7 +485,7 @@ import React from 'react';
 const AddRestaurants = () => {
 
 
-    // const handleSubmit = async () => {
+    const handleSubmit = async () => {
 
         // const settings = {
         //     method: 'POST',
@@ -498,7 +510,7 @@ const AddRestaurants = () => {
         // })
         // .then(res => res.json())
         // .then(data => console.log(data))
-    // }
+    }
 
 
     return (
