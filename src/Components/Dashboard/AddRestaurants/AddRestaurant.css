@@ -1,0 +1,16 @@
+.add-restaurant-page{
+    background-image: url(../../Images//addrastaurant-bg.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.add-restaurant-form-card{
+    background: white;
+    border-radius: 10px;
+}
+.add-restaurant-form-card input{
+    width: 100%;
+    padding: 10px;
+}

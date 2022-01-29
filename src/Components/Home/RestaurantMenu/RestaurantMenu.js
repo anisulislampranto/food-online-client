@@ -31,7 +31,7 @@ const RestaurantMenu = () => {
             <img style={{marginTop:'-70px'}} className='restaurant-img' src={picture} alt="" srcset="" />
             <div style={{marginTop:'-100px'}} className='d-flex container'>
                 <div className='col-md-8'>
-                    <div style={{marginTop:'-90px'}} className='restaurant-heading'>
+                    <div style={{marginTop:'-90px', position:'sticky', top:0}} className='restaurant-heading'>
                             <h1>{name}</h1>
                             <p>$$ {type}</p>
                     </div>

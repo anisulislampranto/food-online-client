@@ -18,6 +18,8 @@ const MenuItem = (props) => {
                     <p className='align-items-center'>${price}</p> 
                     <FontAwesomeIcon icon={faMinus} />
                 </div>
+
+                
             </div>
         </div>
     );
