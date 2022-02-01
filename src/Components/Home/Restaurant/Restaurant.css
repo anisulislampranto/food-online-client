@@ -8,7 +8,6 @@
 }
 .restaurant-card:hover{
     transform: scale(1.1);
-    background-color: white;
 }
 .restaurant-card img{
     box-shadow: gainsboro 4px 4px 4px;

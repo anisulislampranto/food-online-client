@@ -18,7 +18,7 @@ const Restaurants = () => {
         <div className='container'>
             <h1 className='background-text'>Restaurants</h1>
 
-            <div style={{marginTop:'-60px'}} className='row'>
+            <div style={{marginTop:'-60px'}} className='row gap-5 justify-content-center'>
                     {
                         restaurants?.map(restaurant => <Restaurant restaurant={restaurant}> </Restaurant>)
                     }

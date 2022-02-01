@@ -7,10 +7,21 @@
     background-size: cover;
 }
 .add-restaurant-form-card{
-    background: white;
+    background: lightseagreen;
     border-radius: 10px;
 }
 .add-restaurant-form-card input{
     width: 100%;
     padding: 10px;
+}
+.activation-card{
+    width: 100%;
+    background-color: white;
+}
+.joinning-advantage-info-card{
+    background-color: tomato;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }

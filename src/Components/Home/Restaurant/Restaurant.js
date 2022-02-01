@@ -7,7 +7,7 @@ const Restaurant = ({restaurant}) => {
     // console.log(id);
 
     return (
-        <Link to={`/restaurant/${_id}`} className='col-md-4 restaurant-card'>
+        <Link to={`/restaurant/${_id}`} className='col-md-3 restaurant-card'>
             <img style={{width:'100%'}} src={picture} alt="" srcset="" />
             <h1>{name}</h1>
             <p>$${type}</p>            
